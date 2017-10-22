@@ -1,0 +1,16 @@
+.custom-jumbotron{
+    height:270px;
+    background-color: rgba(95, 158, 160, 0.77) !important;
+    animation: random 20s infinite;
+}
+.skill > div{
+    height:50px;
+    animation: random 5s infinite;
+}
+@keyframes  random {
+    15% { color: rgba(240, 4, 4,0.8); } 
+    30% { color: rgba(255, 255, 0),.8; } 
+    45% { color: rgba(1, 128, 1,.8); } 
+    60% { color: rgba(6, 6, 224,0.80); }
+    75% { color: rgba(245, 244, 244,0.75); }  
+}
