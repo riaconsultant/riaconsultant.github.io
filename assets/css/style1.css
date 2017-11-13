@@ -1,11 +1,42 @@
 .custom-jumbotron{
-    height:270px;
-    background-color: rgba(95, 158, 160, 0.77) !important;
+    height:170px;
+    background-color: rgba(204, 204, 204, 0.77) !important;
     animation: random 20s infinite;
+    margin-bottom: 0px;
+    padding-top: 10px !important;
+}
+.main-header{
+    animation: random1 20s infinite;
+}
+.container{
+    margin-bottom: 5px;
+}
+.page-header{
+    margin: 0px !important;
+}
+.skill{
+    margin: 15px;
+    padding: 10px;
+    text-align: center;
 }
 .skill > div{
     height:50px;
-    animation: random 5s infinite;
+    border: 1px solid #ccc;
+    margin: 5px 10px;
+    padding: 2px;
+    border-radius: 1px 15px;
+    display: grid;
+    align-content: center;
+    cursor: pointer;
+}
+.skill > div > a:nth-child(n){
+    animation: random1 15s infinite;
+}
+
+.skill > div:hover{
+    background-color: #ccc;
+    border: 1px solid blue;
+    font-weight: bold;
 }
 @keyframes  random {
     15% { color: rgba(240, 4, 4,0.8); } 
@@ -13,4 +44,12 @@
     45% { color: rgba(1, 128, 1,.8); } 
     60% { color: rgba(6, 6, 224,0.80); }
     75% { color: rgba(245, 244, 244,0.75); }  
+}
+
+@keyframes  random1 {
+    5% { color: rgba(240, 4, 4,0.8); } 
+    20% { color: rgba(255, 255, 0),.8; } 
+    65% { color: rgba(1, 128, 1,.8); } 
+    50% { color: rgba(6, 6, 224,0.80); }
+    85% { color: rgba(245, 244, 244,0.75); }  
 }
