@@ -38,6 +38,15 @@
     border: 1px solid blue;
     font-weight: bold;
 }
+.books{
+
+}
+.books>div{
+    
+}
+.books>div:hover{
+    
+}
 @keyframes  random {
     15% { color: rgba(240, 4, 4,0.8); } 
     30% { color: rgba(255, 255, 0),.8; } 
